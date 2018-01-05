@@ -1,0 +1,210 @@
+*{
+   /* border: 2px solid red;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    padding: 10px 13px 5px 15px;Manecillas del reloj
+    margin: 10px; Manecillas del reloj 
+    */
+}
+body{
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+  
+}
+
+.header{
+   
+position: relative;
+}
+
+button{
+    border-radius:5px;
+    border:none;
+    background:#fd324e;
+    color:white;
+    padding:7px;
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 104px;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.titulo span{
+    text-decoration: underline;
+}
+
+.title-a{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.title-b{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.guitarras{
+    color: #1F313C;
+}
+
+.guitarras h2{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.portada{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height:500px;
+    
+}
+
+.portada button{
+    margin-bottom: 70px;
+    /* margin-left: 0; */
+    cursor: pointer;
+}
+
+/*Inicio Menu*/
+.menu{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.logotipo{
+   display: inline-block;
+   margin-left: 0;
+}
+/*Termina Menu*/
+
+.contenedor{
+    width: 800px;
+    margin: auto; /*auto : para centrar la caja*/
+   
+}
+
+.right{
+    float: right;
+    position: relative;
+    top: -127px;
+}
+
+.left{
+    float: left;
+    position: relative;
+    top: 80;
+    top: 80px;
+}
+
+.guitarra{
+    /* overflow: hidden; */
+    border: 1px solid #1F313C;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.guitarra ol{
+    padding: 0;
+}
+
+
+
+.contendor-guitarra-b{
+    margin-left: 370px;
+    position: relative;
+    bottom: 90px;
+}
+
+.contenedor-guitarra-a{
+    padding-left:20px;
+}
+
+/*Empieza footer*/
+.footer{
+    background: #273b47;
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario{
+    display: flex;
+    
+}
+
+.contacto{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.contacto img{
+    display: block;
+}
+
+.contacto strong{
+    display: block;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px 0;
+}
+
+.col1,.col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    margin-right: 15px;
+}
+
+.intereses label{
+    font-size: 12px;
+}
+
+.formulario label, .sexo , .intereses{
+    margin-bottom: 10px;
+}
+
+.sexo{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*Un elemento inline estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ en lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­nea y abarca solo su espacio ocupado, podrÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­a montarse algo encima de ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©l pero dentro de la misma lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­nea, en cambio inline-block te indica que el elemento estÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ en lÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­nea pero ocupa todo el bloque, no puedes montar algo encima de ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©l aunque exista espacio*/
+
+/*padding : Margen interior , margen con el borde de la caja*/
+/*Margin : Margen exterior que se comporta con su entorno*/
